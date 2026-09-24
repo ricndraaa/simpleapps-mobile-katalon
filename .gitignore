@@ -1,0 +1,13 @@
+bin/
+Libs/
+.gradle/
+.settings/
+.classpath
+.project
+output/
+
+# Hasil eksekusi test
+Reports/
+
+*.apk
+PAT.txt
