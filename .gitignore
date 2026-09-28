@@ -14,3 +14,5 @@ PAT.txt
 
 *.log
 settings/internal/
+
+.cache/
