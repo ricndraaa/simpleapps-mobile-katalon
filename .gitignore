@@ -11,3 +11,6 @@ Reports/
 
 *.apk
 PAT.txt
+
+*.log
+settings/internal/
