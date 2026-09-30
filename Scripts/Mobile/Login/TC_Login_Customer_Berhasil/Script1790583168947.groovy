@@ -33,5 +33,8 @@ Mobile.setText(findTestObject('Object Repository/Mobile/Login/input_captcha'), c
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/btn_login'), 10)
 
-Mobile.delay(5)
+Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Home/btn_keranjang'), 10)
+Mobile.verifyElementNotExist(findTestObject('Object Repository/Mobile/Home/lbl_banner_tamu'), 10)
+
+Mobile.closeApplication()
 
